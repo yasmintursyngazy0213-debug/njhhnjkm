@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dilyara Portfolio</title>
+
+<link rel="icon" href="favicon.png">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5f7;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(to right, #ffc0cb, #ffd6e0);
+    padding: 30px;
+    text-align: center;
+}
+
+#main-heading {
+    color: #d63384;
+    font-size: 2.2rem;
+}
+
+/* BLOCKS */
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* TEXT */
+.highlight {
+    font-weight: bold;
+}
+
+/* GALLERY */
+.gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* FLOAT */
+.left {
+    float: left;
+    width: 45%;
+    background-color: #ffe4ec;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.right {
+    float: right;
+    width: 45%;
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* POSITION */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff99bb;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* LINK */
+a {
+    color: #ff4d88;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe4ec;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1 id="main-heading">Tursyngazy Dilyara</h1>
+    <p style="color:#b03060;">Digital Journalism • AITU • Music Club</p>
+</div>
+
+<div class="container">
+    <h2>About Me</h2>
+    <p class="highlight">
+        I am 17 years old and I study Digital Journalism at Astana IT University (group 2503).
+        I am a vocalist in the Music Club and I love singing, dancing and performing on stage.
+    </p>
+</div>
+
+<div class="container">
+    <h2>My Photos</h2>
+    <div class="gallery">
+        <img src="photo1.jpg">
+        <img src="photo2.jpg">
+        <img src="photo3.jpg">
+    </div>
+</div>
+
+<div class="container">
+    <h2>Favorite Journalists</h2>
+    <ul>
+        <li>Sasha Sulim</li>
+        <li>Ksenia Sobchak</li>
+        <li>Anna Stepanovna Mazepa</li>
+    </ul>
+</div>
+
+<div class="container">
+    <h2>Favorite Song</h2>
+    <a href="https://open.spotify.com/track/1Hv1VTm8zeOeybub15mA2R?si=MdlunOJYSHSpGetcgi8IbA" target="_blank">
+        Listen on Spotify 🎵
+    </a>
+</div>
+
+<div class="container">
+    <h2>My Activities</h2>
+
+    <div class="left">
+        <p>Member of AITU Music Club</p>
+        <p>Vocalist</p>
+    </div>
+
+    <div class="right">
+        <p>I love singing and dancing</p>
+        <p>I enjoy creative work</p>
+    </div>
+
+    <div class="clear"></div>
+</div>
+
+<div class="container relative">
+    <h2>My Goal</h2>
+    <p>To become a successful journalist and performer.</p>
+
+    <div class="absolute">✨ Future Star</div>
+</div>
+
+<div class="footer">
+    <p>© 2026 Dilyara</p>
+</div>
+
+</body>
+</html>
